@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "scripts": {
     "upgrade": "yarn-upgrade-all",
-    "server": "parcel index.html"
+    "server": "parcel index.html",
+    "release": "parcel build index.html --public-url ./"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",

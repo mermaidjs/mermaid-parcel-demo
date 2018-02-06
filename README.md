@@ -8,3 +8,12 @@ A simple demo for using mermaid with Parcel
 ```
 yarn server
 ```
+
+
+## Release
+
+```
+yarn release
+```
+
+Production ready distribution files are generated in `dist/` directory.
